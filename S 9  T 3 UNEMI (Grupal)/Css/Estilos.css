@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+   }
+   
+   a {
+    text-decoration: none;
+   }
+   
+   h1 {
+    color: white;
+    text-align: center;
+    background-color: rgba(146, 24, 218, 0.719);
+    border-radius: 10px;
+   }
+   
+   h6 {
+    color: rgba(146, 24, 218, 0.719);
+    text-align: center;
+   }
+   
+   .container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       flex-wrap: wrap;
+       max-width: 800px;
+       margin: 0 auto;
+       background-color: rgb(0, 0, 0);
+       border-color: rgba(146, 24, 218, 0.719);
+       border-style: groove;
+       border-width: 7px;
+       border-radius: 10px;
+       padding: 20px;
+       box-shadow: 0 10px 10px rgb(149, 19, 182);
+       font-size: 32px;
+   }
+   
+   .boton {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: rgba(146, 24, 218, 0.719);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.10s ease-in-out;
+   }
+   
+   .boton:hover {
+    background-color: purple;
+    padding: 10px 20px;
+   }
+   
+   input{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+   }
+   
+   #resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(146, 24, 218, 0.719);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(149, 19, 182);
+   }
+
+   #resp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(146, 24, 218, 0.719);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(149, 19, 182);
+   }
+   
+   .botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+   }
+   
